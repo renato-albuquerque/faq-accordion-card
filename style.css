@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none;
+    /* border: none; */
     text-decoration: none;
     list-style: none;
 }
@@ -28,6 +28,10 @@
 
 body {
     font-size: 1.2rem;
-    font-family: 'Kumbh Sans', sans-serif;
-    width: 37.5rem;
+    font-family: 'Kumbh Sans', sans-serif;  
+    background: linear-gradient(var(--soft-violet), var(--soft-blue));
+
+    /* width: 100vw; */
+    height: 100vh;
+    border: 1px solid red; /* Only to see the main page. */
 }
