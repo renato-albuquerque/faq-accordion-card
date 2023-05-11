@@ -35,7 +35,7 @@ body {
 
 .container {
     background-color: white;
-    width: 37.5rem;
+    width: 30.5rem;
     border-radius: 2.5rem;
     margin: 0 auto;
     margin-top: 12%;
@@ -54,14 +54,14 @@ body {
 }
 
 .image01 {
-    width: 25rem;
+    width: 20rem;
     position: absolute;
-    top: 7%;   
-    left: 40.5%;
+    top: 10%;   
+    left: 42.5%;
 }
 
 .image02 {
-    width: 25rem;
+    width: 20rem;
 }
 
 .containerSecondSection {
