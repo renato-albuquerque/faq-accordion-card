@@ -74,9 +74,16 @@ body {
     margin-bottom: 2rem;
 }
 
-.secondSection .arrowImage {
-    /* display: inline-block; */
-    /* flex-grow: 1; */
+/* .secondSection .arrowImage {
+    display: inline-block;
+    flex-grow: 1;
+} */
+
+.wrapAccordionArrowImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
 
 .secondSection .accordion {
@@ -123,3 +130,4 @@ footer {
     font-weight: 700;
     transition: all 200ms;
 }
+
