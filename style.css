@@ -86,7 +86,7 @@ body {
     cursor: pointer;
 }
 
-.secondSection .accordion {
+.secondSection .accordion1, .accordion2, .accordion3, .accordion4, .accordion5 {
     width: 100%;
     text-align: left;
     padding-top: 1.5rem;
@@ -96,14 +96,25 @@ body {
     cursor: pointer;
 }
 
-.secondSection .panel {
+.secondSection .accordion1:hover, .accordion2:hover, .accordion3:hover, .accordion4:hover, .accordion5:hover {
+    color: var(--soft-red);
+    transition: 200ms;
+}
+
+.secondSection .accordionBold {
+    font-weight: 700;
+    transition: 200ms;
+}
+
+.secondSection .panel1, .panel2, .panel3, .panel4, .panel5 {
     padding-bottom: 1.5rem;
     display: none;
     overflow: hidden;   /* TO STUDY ! */
+    color: var(--dark-grayish-blue);
 }
 
-.secondSection .panel p {
-    color: var(--dark-grayish-blue);
+.secondSection .panel {
+    /* color: var(--dark-grayish-blue); */
 }
 
 .secondSection .dividers {
@@ -131,3 +142,6 @@ footer {
     transition: all 200ms;
 }
 
+.hide {
+    display: none;
+}
