@@ -74,11 +74,6 @@ body {
     margin-bottom: 2rem;
 }
 
-/* .secondSection .arrowImage {
-    display: inline-block;
-    flex-grow: 1;
-} */
-
 .wrapAccordionArrowImage {
     display: flex;
     justify-content: space-between;
@@ -141,3 +136,6 @@ footer {
 .hide {
     display: none;
 }
+
+/* Responsiveness */
+
