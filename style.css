@@ -113,10 +113,6 @@ body {
     color: var(--dark-grayish-blue);
 }
 
-.secondSection .panel {
-    /* color: var(--dark-grayish-blue); */
-}
-
 .secondSection .dividers {
     border-bottom: 0.5px solid var(--light-grayish-blue);
 }
