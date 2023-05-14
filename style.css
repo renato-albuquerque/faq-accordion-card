@@ -38,7 +38,7 @@ body {
     width: 30.5rem;
     border-radius: 2.5rem;
     margin: 0 auto;
-    margin-top: 12%;
+    margin-top: 15%;
     
     /* Strategy to center all the page. */
     /* position: absolute;
@@ -51,17 +51,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;   
 }
 
 .image01 {
-    width: 20rem;
+    width: 70%;
     position: absolute;
-    top: 10%;   
-    left: 42.5%;
+    top: -105%;
 }
 
 .image02 {
-    width: 20rem;
+    width: 70%;
 }
 
 .containerSecondSection {
@@ -98,7 +98,7 @@ body {
 
 .secondSection .accordionBold {
     font-weight: 700;
-    transition: 200ms;
+    transition: all 200ms;
 }
 
 .secondSection .panel1, .panel2, .panel3, .panel4, .panel5 {
@@ -139,3 +139,11 @@ footer {
 
 /* Responsiveness */
 
+/* @media (min-width: 1024px) {
+    .container {
+        width: 76.8rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+} */
