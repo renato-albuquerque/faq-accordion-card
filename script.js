@@ -24,8 +24,10 @@ const answer5 = document.querySelector(".panel5")
 function showAnswer1() {
     question1.classList.toggle("accordionBold")
     answer1.classList.toggle("panel1")
+    arrowImage1.classList.toggle("rotateArrow")
     answer1.style.color = "var(--dark-grayish-blue)"
     answer1.style.marginBottom = "1.5rem"
+    
 
     reset1()
 }
@@ -33,6 +35,7 @@ function showAnswer1() {
 function clickArrow1() {
     question1.classList.toggle("accordionBold")
     answer1.classList.toggle("panel1")
+    arrowImage1.classList.toggle("rotateArrow")
     answer1.style.color = "var(--dark-grayish-blue)"
     answer1.style.marginBottom = "1.5rem"
 
@@ -42,6 +45,7 @@ function clickArrow1() {
 function showAnswer2() {
     question2.classList.toggle("accordionBold")
     answer2.classList.toggle("panel2")
+    arrowImage2.classList.toggle("rotateArrow")
     answer2.style.color = "var(--dark-grayish-blue)"
     answer2.style.marginBottom = "1.5rem"
 
@@ -51,6 +55,7 @@ function showAnswer2() {
 function clickArrow2() {
     question2.classList.toggle("accordionBold")
     answer2.classList.toggle("panel2")
+    arrowImage2.classList.toggle("rotateArrow")
     answer2.style.color = "var(--dark-grayish-blue)"
     answer2.style.marginBottom = "1.5rem"
     
@@ -60,6 +65,7 @@ function clickArrow2() {
 function showAnswer3() {
     question3.classList.toggle("accordionBold")
     answer3.classList.toggle("panel3")
+    arrowImage3.classList.toggle("rotateArrow")
     answer3.style.color = "var(--dark-grayish-blue)"
     answer3.style.marginBottom = "1.5rem"
     
@@ -69,6 +75,7 @@ function showAnswer3() {
 function clickArrow3() {
     question3.classList.toggle("accordionBold")
     answer3.classList.toggle("panel3")
+    arrowImage3.classList.toggle("rotateArrow")
     answer3.style.color = "var(--dark-grayish-blue)"
     answer3.style.marginBottom = "1.5rem"
 
@@ -78,6 +85,7 @@ function clickArrow3() {
 function showAnswer4() {
     question4.classList.toggle("accordionBold")
     answer4.classList.toggle("panel4")
+    arrowImage4.classList.toggle("rotateArrow")
     answer4.style.color = "var(--dark-grayish-blue)"
     answer4.style.marginBottom = "1.5rem"
 
@@ -87,6 +95,7 @@ function showAnswer4() {
 function clickArrow4() {
     question3.classList.toggle("accordionBold")
     answer4.classList.toggle("panel4")
+    arrowImage4.classList.toggle("rotateArrow")
     answer4.style.color = "var(--dark-grayish-blue)"
     answer4.style.marginBottom = "1.5rem"
 
@@ -96,6 +105,7 @@ function clickArrow4() {
 function showAnswer5() {
     question5.classList.toggle("accordionBold")
     answer5.classList.toggle("panel5")
+    arrowImage5.classList.toggle("rotateArrow")
     answer5.style.color = "var(--dark-grayish-blue)"
     answer5.style.marginBottom = "1.5rem"
 
@@ -105,6 +115,7 @@ function showAnswer5() {
 function clickArrow5() {
     question5.classList.toggle("accordionBold")
     answer5.classList.toggle("panel5")
+    arrowImage5.classList.toggle("rotateArrow")
     answer5.style.color = "var(--dark-grayish-blue)"
     answer5.style.marginBottom = "1.5rem"
 
