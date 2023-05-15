@@ -114,7 +114,7 @@ body {
 
 .rotateArrow {
     transform: rotate(180deg);
-    /* transition-duration: 300ms; */
+    transition-duration: 200ms;
 }    
 
 .secondSection .dividers {
